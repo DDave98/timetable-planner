@@ -1,0 +1,128 @@
+[
+  {
+    "id": "subject-mat",
+    "name": "Matematika",
+    "code": "MAT",
+    "year": 1,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-cj",
+    "name": "Český jazyk",
+    "code": "CJ",
+    "year": 1,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-aj",
+    "name": "Anglický jazyk",
+    "code": "AJ",
+    "year": 1,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-fyz",
+    "name": "Fyzika",
+    "code": "FYZ",
+    "year": 1,
+    "recommendedClassrooms": ["standard", "lab"]
+  },
+  {
+    "id": "subject-che",
+    "name": "Chemie",
+    "code": "CHE",
+    "year": 1,
+    "recommendedClassrooms": ["standard", "lab"]
+  },
+  {
+    "id": "subject-bio",
+    "name": "Biologie",
+    "code": "BIO",
+    "year": 1,
+    "recommendedClassrooms": ["standard", "lab"]
+  },
+  {
+    "id": "subject-dej",
+    "name": "Dějepis",
+    "code": "DEJ",
+    "year": 1,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-zem",
+    "name": "Zeměpis",
+    "code": "ZEM",
+    "year": 1,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-inf",
+    "name": "Informatika",
+    "code": "INF",
+    "year": 1,
+    "recommendedClassrooms": ["computer"]
+  },
+  {
+    "id": "subject-os",
+    "name": "Operační systémy",
+    "code": "OS",
+    "year": 2,
+    "recommendedClassrooms": ["computer"]
+  },
+  {
+    "id": "subject-db",
+    "name": "Databáze",
+    "code": "DB",
+    "year": 2,
+    "recommendedClassrooms": ["computer"]
+  },
+  {
+    "id": "subject-prog",
+    "name": "Programování",
+    "code": "PROG",
+    "year": 3,
+    "recommendedClassrooms": ["computer"]
+  },
+  {
+    "id": "subject-tv",
+    "name": "Tělesná výchova",
+    "code": "TV",
+    "year": 1,
+    "recommendedClassrooms": ["gym"]
+  },
+  {
+    "id": "subject-hv",
+    "name": "Hudební výchova",
+    "code": "HV",
+    "year": 1,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-vv",
+    "name": "Výtvarná výchova",
+    "code": "VV",
+    "year": 1,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-ekon",
+    "name": "Ekonomika",
+    "code": "EKON",
+    "year": 3,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-psych",
+    "name": "Psychologie",
+    "code": "PSYCH",
+    "year": 4,
+    "recommendedClassrooms": ["standard"]
+  },
+  {
+    "id": "subject-fil",
+    "name": "Filozofie",
+    "code": "FIL",
+    "year": 4,
+    "recommendedClassrooms": ["standard"]
+  }
+]

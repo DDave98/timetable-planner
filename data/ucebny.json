@@ -1,0 +1,122 @@
+[
+  {
+    "id": "classroom-101",
+    "name": "Učebna 101",
+    "capacity": 30,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-102",
+    "name": "Učebna 102",
+    "capacity": 30,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-103",
+    "name": "Učebna 103",
+    "capacity": 30,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-104",
+    "name": "Učebna 104",
+    "capacity": 25,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-105",
+    "name": "Učebna 105",
+    "capacity": 35,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-201",
+    "name": "Učebna 201",
+    "capacity": 30,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-202",
+    "name": "Učebna 202",
+    "capacity": 30,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-203",
+    "name": "Učebna 203",
+    "capacity": 30,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-301",
+    "name": "Učebna 301",
+    "capacity": 30,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-302",
+    "name": "Učebna 302",
+    "capacity": 30,
+    "type": "standard"
+  },
+  {
+    "id": "classroom-pc-a",
+    "name": "Počítačová učebna A",
+    "capacity": 20,
+    "type": "computer"
+  },
+  {
+    "id": "classroom-pc-b",
+    "name": "Počítačová učebna B",
+    "capacity": 20,
+    "type": "computer"
+  },
+  {
+    "id": "classroom-pc-c",
+    "name": "Počítačová učebna C",
+    "capacity": 24,
+    "type": "computer"
+  },
+  {
+    "id": "classroom-lab-chem",
+    "name": "Laboratoř chemie",
+    "capacity": 15,
+    "type": "lab"
+  },
+  {
+    "id": "classroom-lab-fyz",
+    "name": "Laboratoř fyziky",
+    "capacity": 15,
+    "type": "lab"
+  },
+  {
+    "id": "classroom-lab-bio",
+    "name": "Laboratoř biologie",
+    "capacity": 18,
+    "type": "lab"
+  },
+  {
+    "id": "classroom-gym-1",
+    "name": "Tělocvična 1",
+    "capacity": 40,
+    "type": "gym"
+  },
+  {
+    "id": "classroom-gym-2",
+    "name": "Tělocvična 2",
+    "capacity": 35,
+    "type": "gym"
+  },
+  {
+    "id": "classroom-aula",
+    "name": "Aula",
+    "capacity": 100,
+    "type": "auditorium"
+  },
+  {
+    "id": "classroom-aula-mala",
+    "name": "Malá aula",
+    "capacity": 50,
+    "type": "auditorium"
+  }
+]

@@ -1,0 +1,459 @@
+{
+  "version": "1.0",
+  "exportDate": "2024-01-15T10:30:00.000Z",
+  "description": "Kompletní vzorová data pro aplikaci Rozvrh školy",
+  "classes": [
+    {
+      "id": "class-1a",
+      "name": "1.A",
+      "year": 1,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "TV", "HV", "VV"]
+    },
+    {
+      "id": "class-1b",
+      "name": "1.B", 
+      "year": 1,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "TV", "HV", "VV"]
+    },
+    {
+      "id": "class-2a",
+      "name": "2.A",
+      "year": 2,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "TV", "HV", "VV"]
+    },
+    {
+      "id": "class-2b",
+      "name": "2.B",
+      "year": 2,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "TV", "HV", "VV"]
+    },
+    {
+      "id": "class-3a",
+      "name": "3.A",
+      "year": 3,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "PROG", "TV", "HV", "VV"]
+    },
+    {
+      "id": "class-3b",
+      "name": "3.B",
+      "year": 3,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "PROG", "TV", "HV", "VV"]
+    },
+    {
+      "id": "class-4a",
+      "name": "4.A",
+      "year": 4,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "PROG", "TV", "HV", "VV"]
+    },
+    {
+      "id": "class-4b",
+      "name": "4.B",
+      "year": 4,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "PROG", "TV", "HV", "VV"]
+    }
+  ],
+  "teachers": [
+    {
+      "id": "teacher-1",
+      "name": "Jan Novák",
+      "email": "jan.novak@skola.cz",
+      "subjects": ["MAT", "FYZ"],
+      "blockings": []
+    },
+    {
+      "id": "teacher-2",
+      "name": "Marie Svobodová",
+      "email": "marie.svobodova@skola.cz",
+      "subjects": ["CJ", "DEJ"],
+      "blockings": []
+    },
+    {
+      "id": "teacher-3",
+      "name": "Petr Dvořák",
+      "email": "petr.dvorak@skola.cz",
+      "subjects": ["AJ"],
+      "blockings": [
+        {
+          "id": "blocking-1",
+          "day": "Pondělí",
+          "timeSlot": "7:10-7:55",
+          "reason": "Jazykový kurz"
+        },
+        {
+          "id": "blocking-2",
+          "day": "Pondělí",
+          "timeSlot": "8:00-8:45",
+          "reason": "Jazykový kurz"
+        }
+      ]
+    },
+    {
+      "id": "teacher-4",
+      "name": "Anna Kratochvílová",
+      "email": "anna.kratochvilova@skola.cz",
+      "subjects": ["CHE", "BIO"],
+      "blockings": []
+    },
+    {
+      "id": "teacher-5",
+      "name": "Tomáš Procházka",
+      "email": "tomas.prochazka@skola.cz",
+      "subjects": ["INF", "OS", "DB", "PROG"],
+      "blockings": [
+        {
+          "id": "blocking-3",
+          "day": "Středa",
+          "timeSlot": "13:40-14:25",
+          "reason": "Studium VŠ"
+        },
+        {
+          "id": "blocking-4",
+          "day": "Středa",
+          "timeSlot": "14:35-15:20",
+          "reason": "Studium VŠ"
+        },
+        {
+          "id": "blocking-5",
+          "day": "Středa",
+          "timeSlot": "15:30-16:15",
+          "reason": "Studium VŠ"
+        }
+      ]
+    },
+    {
+      "id": "teacher-6",
+      "name": "Jana Malá",
+      "email": "jana.mala@skola.cz",
+      "subjects": ["TV"],
+      "blockings": []
+    },
+    {
+      "id": "teacher-7",
+      "name": "Pavel Velký",
+      "email": "pavel.velky@skola.cz",
+      "subjects": ["ZEM", "HV", "VV"],
+      "blockings": []
+    },
+    {
+      "id": "teacher-8",
+      "name": "Eva Novotná",
+      "email": "eva.novotna@skola.cz",
+      "subjects": ["MAT", "INF"],
+      "blockings": []
+    },
+    {
+      "id": "teacher-9",
+      "name": "Michal Svoboda",
+      "email": "michal.svoboda@skola.cz",
+      "subjects": ["FYZ", "CHE"],
+      "blockings": []
+    },
+    {
+      "id": "teacher-10",
+      "name": "Lucie Dvořáková",
+      "email": "lucie.dvorakova@skola.cz",
+      "subjects": ["CJ", "AJ"],
+      "blockings": []
+    }
+  ],
+  "subjects": [
+    {
+      "id": "subject-mat",
+      "name": "Matematika",
+      "code": "MAT",
+      "year": 1,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-cj",
+      "name": "Český jazyk",
+      "code": "CJ",
+      "year": 1,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-aj",
+      "name": "Anglický jazyk",
+      "code": "AJ",
+      "year": 1,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-fyz",
+      "name": "Fyzika",
+      "code": "FYZ",
+      "year": 1,
+      "recommendedClassrooms": ["standard", "lab"]
+    },
+    {
+      "id": "subject-che",
+      "name": "Chemie",
+      "code": "CHE",
+      "year": 1,
+      "recommendedClassrooms": ["standard", "lab"]
+    },
+    {
+      "id": "subject-bio",
+      "name": "Biologie",
+      "code": "BIO",
+      "year": 1,
+      "recommendedClassrooms": ["standard", "lab"]
+    },
+    {
+      "id": "subject-dej",
+      "name": "Dějepis",
+      "code": "DEJ",
+      "year": 1,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-zem",
+      "name": "Zeměpis",
+      "code": "ZEM",
+      "year": 1,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-inf",
+      "name": "Informatika",
+      "code": "INF",
+      "year": 1,
+      "recommendedClassrooms": ["computer"]
+    },
+    {
+      "id": "subject-os",
+      "name": "Operační systémy",
+      "code": "OS",
+      "year": 2,
+      "recommendedClassrooms": ["computer"]
+    },
+    {
+      "id": "subject-db",
+      "name": "Databáze",
+      "code": "DB",
+      "year": 2,
+      "recommendedClassrooms": ["computer"]
+    },
+    {
+      "id": "subject-prog",
+      "name": "Programování",
+      "code": "PROG",
+      "year": 3,
+      "recommendedClassrooms": ["computer"]
+    },
+    {
+      "id": "subject-tv",
+      "name": "Tělesná výchova",
+      "code": "TV",
+      "year": 1,
+      "recommendedClassrooms": ["gym"]
+    },
+    {
+      "id": "subject-hv",
+      "name": "Hudební výchova",
+      "code": "HV",
+      "year": 1,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-vv",
+      "name": "Výtvarná výchova",
+      "code": "VV",
+      "year": 1,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-ekon",
+      "name": "Ekonomika",
+      "code": "EKON",
+      "year": 3,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-psych",
+      "name": "Psychologie",
+      "code": "PSYCH",
+      "year": 4,
+      "recommendedClassrooms": ["standard"]
+    },
+    {
+      "id": "subject-fil",
+      "name": "Filozofie",
+      "code": "FIL",
+      "year": 4,
+      "recommendedClassrooms": ["standard"]
+    }
+  ],
+  "classrooms": [
+    {
+      "id": "classroom-101",
+      "name": "Učebna 101",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-102",
+      "name": "Učebna 102",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-103",
+      "name": "Učebna 103",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-104",
+      "name": "Učebna 104",
+      "capacity": 25,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-105",
+      "name": "Učebna 105",
+      "capacity": 35,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-201",
+      "name": "Učebna 201",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-202",
+      "name": "Učebna 202",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-203",
+      "name": "Učebna 203",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-301",
+      "name": "Učebna 301",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-302",
+      "name": "Učebna 302",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "classroom-pc-a",
+      "name": "Počítačová učebna A",
+      "capacity": 20,
+      "type": "computer"
+    },
+    {
+      "id": "classroom-pc-b",
+      "name": "Počítačová učebna B",
+      "capacity": 20,
+      "type": "computer"
+    },
+    {
+      "id": "classroom-pc-c",
+      "name": "Počítačová učebna C",
+      "capacity": 24,
+      "type": "computer"
+    },
+    {
+      "id": "classroom-lab-chem",
+      "name": "Laboratoř chemie",
+      "capacity": 15,
+      "type": "lab"
+    },
+    {
+      "id": "classroom-lab-fyz",
+      "name": "Laboratoř fyziky",
+      "capacity": 15,
+      "type": "lab"
+    },
+    {
+      "id": "classroom-lab-bio",
+      "name": "Laboratoř biologie",
+      "capacity": 18,
+      "type": "lab"
+    },
+    {
+      "id": "classroom-gym-1",
+      "name": "Tělocvična 1",
+      "capacity": 40,
+      "type": "gym"
+    },
+    {
+      "id": "classroom-gym-2",
+      "name": "Tělocvična 2",
+      "capacity": 35,
+      "type": "gym"
+    },
+    {
+      "id": "classroom-aula",
+      "name": "Aula",
+      "capacity": 100,
+      "type": "auditorium"
+    },
+    {
+      "id": "classroom-aula-mala",
+      "name": "Malá aula",
+      "capacity": 50,
+      "type": "auditorium"
+    }
+  ],
+  "studyPrograms": [
+    {
+      "id": "program-informatika",
+      "name": "Informatika",
+      "years": 4,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "PROG", "TV", "HV", "VV", "EKON", "PSYCH", "FIL"]
+    },
+    {
+      "id": "program-ekonomika",
+      "name": "Ekonomika",
+      "years": 4,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "EKON", "TV", "HV", "VV", "PSYCH", "FIL"]
+    },
+    {
+      "id": "program-pedagogika",
+      "name": "Pedagogika",
+      "years": 4,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "TV", "HV", "VV", "PSYCH", "FIL"]
+    },
+    {
+      "id": "program-technika",
+      "name": "Technika",
+      "years": 4,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "PROG", "TV", "HV", "VV"]
+    },
+    {
+      "id": "program-humanitni",
+      "name": "Humanitní vědy",
+      "years": 4,
+      "subjects": ["CJ", "AJ", "DEJ", "ZEM", "INF", "TV", "HV", "VV", "PSYCH", "FIL"]
+    },
+    {
+      "id": "program-prirodni",
+      "name": "Přírodní vědy",
+      "years": 4,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "TV", "HV", "VV"]
+    },
+    {
+      "id": "program-umeni",
+      "name": "Umění",
+      "years": 4,
+      "subjects": ["CJ", "AJ", "DEJ", "ZEM", "INF", "TV", "HV", "VV", "PSYCH", "FIL"]
+    },
+    {
+      "id": "program-sport",
+      "name": "Sport",
+      "years": 4,
+      "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "TV", "HV", "VV", "PSYCH"]
+    }
+  ]
+}

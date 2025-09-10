@@ -1,0 +1,104 @@
+[
+  {
+    "id": "teacher-1",
+    "name": "Jan Novák",
+    "email": "jan.novak@skola.cz",
+    "subjects": ["MAT", "FYZ"],
+    "blockings": []
+  },
+  {
+    "id": "teacher-2",
+    "name": "Marie Svobodová",
+    "email": "marie.svobodova@skola.cz",
+    "subjects": ["CJ", "DEJ"],
+    "blockings": []
+  },
+  {
+    "id": "teacher-3",
+    "name": "Petr Dvořák",
+    "email": "petr.dvorak@skola.cz",
+    "subjects": ["AJ"],
+    "blockings": [
+      {
+        "id": "blocking-1",
+        "day": "Pondělí",
+        "timeSlot": "7:10-7:55",
+        "reason": "Jazykový kurz"
+      },
+      {
+        "id": "blocking-2",
+        "day": "Pondělí",
+        "timeSlot": "8:00-8:45",
+        "reason": "Jazykový kurz"
+      }
+    ]
+  },
+  {
+    "id": "teacher-4",
+    "name": "Anna Kratochvílová",
+    "email": "anna.kratochvilova@skola.cz",
+    "subjects": ["CHE", "BIO"],
+    "blockings": []
+  },
+  {
+    "id": "teacher-5",
+    "name": "Tomáš Procházka",
+    "email": "tomas.prochazka@skola.cz",
+    "subjects": ["INF", "OS", "DB", "PROG"],
+    "blockings": [
+      {
+        "id": "blocking-3",
+        "day": "Středa",
+        "timeSlot": "13:40-14:25",
+        "reason": "Studium VŠ"
+      },
+      {
+        "id": "blocking-4",
+        "day": "Středa",
+        "timeSlot": "14:35-15:20",
+        "reason": "Studium VŠ"
+      },
+      {
+        "id": "blocking-5",
+        "day": "Středa",
+        "timeSlot": "15:30-16:15",
+        "reason": "Studium VŠ"
+      }
+    ]
+  },
+  {
+    "id": "teacher-6",
+    "name": "Jana Malá",
+    "email": "jana.mala@skola.cz",
+    "subjects": ["TV"],
+    "blockings": []
+  },
+  {
+    "id": "teacher-7",
+    "name": "Pavel Velký",
+    "email": "pavel.velky@skola.cz",
+    "subjects": ["ZEM", "HV", "VV"],
+    "blockings": []
+  },
+  {
+    "id": "teacher-8",
+    "name": "Eva Novotná",
+    "email": "eva.novotna@skola.cz",
+    "subjects": ["MAT", "INF"],
+    "blockings": []
+  },
+  {
+    "id": "teacher-9",
+    "name": "Michal Svoboda",
+    "email": "michal.svoboda@skola.cz",
+    "subjects": ["FYZ", "CHE"],
+    "blockings": []
+  },
+  {
+    "id": "teacher-10",
+    "name": "Lucie Dvořáková",
+    "email": "lucie.dvorakova@skola.cz",
+    "subjects": ["CJ", "AJ"],
+    "blockings": []
+  }
+]

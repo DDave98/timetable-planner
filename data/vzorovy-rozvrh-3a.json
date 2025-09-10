@@ -1,0 +1,230 @@
+{
+  "classId": "class-3a",
+  "className": "3.A",
+  "year": 3,
+  "schedule": {
+    "Pondělí": {
+      "7:10-7:55": [
+        {
+          "id": "mat-1-3",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ],
+      "8:00-8:45": [
+        {
+          "id": "prog-1-3",
+          "subjectId": "subject-prog",
+          "classroomId": "classroom-pc-a"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "prog-1-3-2",
+          "subjectId": "subject-prog",
+          "classroomId": "classroom-pc-a"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "os-1-3",
+          "subjectId": "subject-os",
+          "classroomId": "classroom-pc-b"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "db-1-3",
+          "subjectId": "subject-db",
+          "classroomId": "classroom-pc-c"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "cj-1-3",
+          "subjectId": "subject-cj",
+          "classroomId": "classroom-102"
+        }
+      ]
+    },
+    "Úterý": {
+      "8:00-8:45": [
+        {
+          "id": "mat-2-3",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "fyz-2-3",
+          "subjectId": "subject-fyz",
+          "classroomId": "classroom-lab-fyz"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "fyz-2-3-2",
+          "subjectId": "subject-fyz",
+          "classroomId": "classroom-lab-fyz"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "aj-2-3",
+          "subjectId": "subject-aj",
+          "classroomId": "classroom-103"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "dej-2-3",
+          "subjectId": "subject-dej",
+          "classroomId": "classroom-104"
+        }
+      ],
+      "12:45-13:30": [
+        {
+          "id": "tv-2-3",
+          "subjectId": "subject-tv",
+          "classroomId": "classroom-gym-1"
+        }
+      ]
+    },
+    "Středa": {
+      "7:10-7:55": [
+        {
+          "id": "prog-3-3",
+          "subjectId": "subject-prog",
+          "classroomId": "classroom-pc-a"
+        }
+      ],
+      "8:00-8:45": [
+        {
+          "id": "prog-3-3-2",
+          "subjectId": "subject-prog",
+          "classroomId": "classroom-pc-a"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "os-3-3",
+          "subjectId": "subject-os",
+          "classroomId": "classroom-pc-b"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "db-3-3",
+          "subjectId": "subject-db",
+          "classroomId": "classroom-pc-c"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "inf-3-3",
+          "subjectId": "subject-inf",
+          "classroomId": "classroom-pc-a"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "mat-3-3",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ]
+    },
+    "Čtvrtek": {
+      "8:00-8:45": [
+        {
+          "id": "cj-4-3",
+          "subjectId": "subject-cj",
+          "classroomId": "classroom-102"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "aj-4-3",
+          "subjectId": "subject-aj",
+          "classroomId": "classroom-103"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "che-4-3",
+          "subjectId": "subject-che",
+          "classroomId": "classroom-lab-chem"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "bio-4-3",
+          "subjectId": "subject-bio",
+          "classroomId": "classroom-lab-bio"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "zem-4-3",
+          "subjectId": "subject-zem",
+          "classroomId": "classroom-104"
+        }
+      ],
+      "12:45-13:30": [
+        {
+          "id": "hv-4-3",
+          "subjectId": "subject-hv",
+          "classroomId": "classroom-105"
+        }
+      ]
+    },
+    "Pátek": {
+      "7:10-7:55": [
+        {
+          "id": "mat-5-3",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ],
+      "8:00-8:45": [
+        {
+          "id": "prog-5-3",
+          "subjectId": "subject-prog",
+          "classroomId": "classroom-pc-a"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "os-5-3",
+          "subjectId": "subject-os",
+          "classroomId": "classroom-pc-b"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "db-5-3",
+          "subjectId": "subject-db",
+          "classroomId": "classroom-pc-c"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "tv-5-3",
+          "subjectId": "subject-tv",
+          "classroomId": "classroom-gym-2"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "vv-5-3",
+          "subjectId": "subject-vv",
+          "classroomId": "classroom-201"
+        }
+      ]
+    }
+  },
+  "exportDate": "2024-01-15T10:30:00.000Z",
+  "version": "1.0",
+  "description": "Vzorový rozvrh pro třídu 3.A s důrazem na IT předměty a programování"
+}

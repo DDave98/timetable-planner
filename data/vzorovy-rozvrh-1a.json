@@ -1,0 +1,223 @@
+{
+  "classId": "class-1a",
+  "className": "1.A",
+  "year": 1,
+  "schedule": {
+    "Pondělí": {
+      "7:10-7:55": [
+        {
+          "id": "mat-1-1",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ],
+      "8:00-8:45": [
+        {
+          "id": "cj-1-1",
+          "subjectId": "subject-cj",
+          "classroomId": "classroom-102"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "aj-1-1",
+          "subjectId": "subject-aj",
+          "classroomId": "classroom-103"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "fyz-1-1",
+          "subjectId": "subject-fyz",
+          "classroomId": "classroom-lab-fyz"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "che-1-1",
+          "subjectId": "subject-che",
+          "classroomId": "classroom-lab-chem"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "bio-1-1",
+          "subjectId": "subject-bio",
+          "classroomId": "classroom-lab-bio"
+        }
+      ]
+    },
+    "Úterý": {
+      "7:10-7:55": [
+        {
+          "id": "mat-2-1",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ],
+      "8:00-8:45": [
+        {
+          "id": "dej-2-1",
+          "subjectId": "subject-dej",
+          "classroomId": "classroom-102"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "zem-2-1",
+          "subjectId": "subject-zem",
+          "classroomId": "classroom-103"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "inf-2-1",
+          "subjectId": "subject-inf",
+          "classroomId": "classroom-pc-a"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "tv-2-1",
+          "subjectId": "subject-tv",
+          "classroomId": "classroom-gym-1"
+        }
+      ]
+    },
+    "Středa": {
+      "8:00-8:45": [
+        {
+          "id": "mat-3-1",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "cj-3-1",
+          "subjectId": "subject-cj",
+          "classroomId": "classroom-102"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "aj-3-1",
+          "subjectId": "subject-aj",
+          "classroomId": "classroom-103"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "fyz-3-1",
+          "subjectId": "subject-fyz",
+          "classroomId": "classroom-104"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "hv-3-1",
+          "subjectId": "subject-hv",
+          "classroomId": "classroom-105"
+        }
+      ],
+      "12:45-13:30": [
+        {
+          "id": "vv-3-1",
+          "subjectId": "subject-vv",
+          "classroomId": "classroom-201"
+        }
+      ]
+    },
+    "Čtvrtek": {
+      "7:10-7:55": [
+        {
+          "id": "mat-4-1",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ],
+      "8:00-8:45": [
+        {
+          "id": "che-4-1",
+          "subjectId": "subject-che",
+          "classroomId": "classroom-lab-chem"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "bio-4-1",
+          "subjectId": "subject-bio",
+          "classroomId": "classroom-lab-bio"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "dej-4-1",
+          "subjectId": "subject-dej",
+          "classroomId": "classroom-102"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "zem-4-1",
+          "subjectId": "subject-zem",
+          "classroomId": "classroom-103"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "inf-4-1",
+          "subjectId": "subject-inf",
+          "classroomId": "classroom-pc-b"
+        }
+      ]
+    },
+    "Pátek": {
+      "8:00-8:45": [
+        {
+          "id": "cj-5-1",
+          "subjectId": "subject-cj",
+          "classroomId": "classroom-102"
+        }
+      ],
+      "8:55-9:40": [
+        {
+          "id": "aj-5-1",
+          "subjectId": "subject-aj",
+          "classroomId": "classroom-103"
+        }
+      ],
+      "10:00-10:45": [
+        {
+          "id": "mat-5-1",
+          "subjectId": "subject-mat",
+          "classroomId": "classroom-101"
+        }
+      ],
+      "10:55-11:40": [
+        {
+          "id": "tv-5-1",
+          "subjectId": "subject-tv",
+          "classroomId": "classroom-gym-2"
+        }
+      ],
+      "11:50-12:35": [
+        {
+          "id": "hv-5-1",
+          "subjectId": "subject-hv",
+          "classroomId": "classroom-105"
+        }
+      ],
+      "12:45-13:30": [
+        {
+          "id": "vv-5-1",
+          "subjectId": "subject-vv",
+          "classroomId": "classroom-201"
+        }
+      ]
+    }
+  },
+  "exportDate": "2024-01-15T10:30:00.000Z",
+  "version": "1.0",
+  "description": "Vzorový rozvrh pro třídu 1.A s kompletním rozvrhem na celý týden"
+}

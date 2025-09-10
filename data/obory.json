@@ -1,0 +1,50 @@
+[
+  {
+    "id": "program-informatika",
+    "name": "Informatika",
+    "years": 4,
+    "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "PROG", "TV", "HV", "VV", "EKON", "PSYCH", "FIL"]
+  },
+  {
+    "id": "program-ekonomika",
+    "name": "Ekonomika",
+    "years": 4,
+    "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "EKON", "TV", "HV", "VV", "PSYCH", "FIL"]
+  },
+  {
+    "id": "program-pedagogika",
+    "name": "Pedagogika",
+    "years": 4,
+    "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "TV", "HV", "VV", "PSYCH", "FIL"]
+  },
+  {
+    "id": "program-technika",
+    "name": "Technika",
+    "years": 4,
+    "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "OS", "DB", "PROG", "TV", "HV", "VV"]
+  },
+  {
+    "id": "program-humanitni",
+    "name": "Humanitní vědy",
+    "years": 4,
+    "subjects": ["CJ", "AJ", "DEJ", "ZEM", "INF", "TV", "HV", "VV", "PSYCH", "FIL"]
+  },
+  {
+    "id": "program-prirodni",
+    "name": "Přírodní vědy",
+    "years": 4,
+    "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "TV", "HV", "VV"]
+  },
+  {
+    "id": "program-umeni",
+    "name": "Umění",
+    "years": 4,
+    "subjects": ["CJ", "AJ", "DEJ", "ZEM", "INF", "TV", "HV", "VV", "PSYCH", "FIL"]
+  },
+  {
+    "id": "program-sport",
+    "name": "Sport",
+    "years": 4,
+    "subjects": ["MAT", "CJ", "AJ", "FYZ", "CHE", "BIO", "DEJ", "ZEM", "INF", "TV", "HV", "VV", "PSYCH"]
+  }
+]
