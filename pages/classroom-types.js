@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import { useData } from '../lib/useData';
+import { predefinedColors, predefinedIcons } from '../lib/data';
 
 export default function ClassroomTypesPage() {
   const { 
@@ -21,17 +22,6 @@ export default function ClassroomTypesPage() {
     color: '#3b82f6',
     icon: '🏫'
   });
-
-  const predefinedIcons = [
-    '🏫', '💻', '🧪', '🏃', '🎭', '🎵', '🎨', '📚', 
-    '🔬', '⚗️', '🧬', '📖', '✏️', '📝', '🎯', '🎪'
-  ];
-
-  const predefinedColors = [
-    '#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6',
-    '#06b6d4', '#84cc16', '#f97316', '#ec4899', '#6366f1',
-    '#14b8a6', '#eab308', '#dc2626', '#7c3aed', '#0891b2'
-  ];
 
   if (loading) {
     return (
