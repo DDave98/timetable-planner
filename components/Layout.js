@@ -94,7 +94,7 @@ const Layout = ({ children }) => {
         color: '#666',
         fontSize: '14px'
       }}>
-        <p>© 2024 Rozvrh školy - Vytvořeno s Next.js</p>
+        <p>© 2024 Rozvrh školy - Vytvořil Ing. David Michalica</p>
       </footer>
     </div>
   );
