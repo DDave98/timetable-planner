@@ -148,7 +148,7 @@ export default function StudyProgramsPage() {
                 </div>
                 
                 <div className="form-group">
-                  <label>Počet let</label>
+                  <label>Ročník oboru</label>
                   <select
                     value={formData.years}
                     onChange={(e) => setFormData({ ...formData, years: parseInt(e.target.value) })}
@@ -157,7 +157,6 @@ export default function StudyProgramsPage() {
                     <option value={2}>2 roky</option>
                     <option value={3}>3 roky</option>
                     <option value={4}>4 roky</option>
-                    <option value={5}>5 let</option>
                   </select>
                 </div>
               </div>

@@ -1,0 +1,441 @@
+{
+  "classes": [
+    {
+      "id": "5b5e0a71-aa75-4ff5-88c1-d964ef0db209",
+      "name": "1.A",
+      "year": 1,
+      "subjects": [
+        "MAT",
+        "CJ",
+        "AJ",
+        "FYZ",
+        "CHE",
+        "BIO",
+        "DEJ",
+        "ZEM",
+        "INF",
+        "TV",
+        "HV",
+        "VV"
+      ]
+    },
+    {
+      "id": "b520c475-7e22-4f51-aa91-0b02b2d6cac3",
+      "name": "1.B",
+      "year": 1,
+      "subjects": [
+        "MAT",
+        "CJ",
+        "AJ",
+        "FYZ",
+        "CHE",
+        "BIO",
+        "DEJ",
+        "ZEM",
+        "INF",
+        "TV",
+        "HV",
+        "VV"
+      ]
+    },
+    {
+      "id": "d058418b-382f-46fb-81ec-03ba7b4bda84",
+      "name": "2.A",
+      "year": 2,
+      "subjects": [
+        "MAT",
+        "CJ",
+        "AJ",
+        "FYZ",
+        "CHE",
+        "BIO",
+        "DEJ",
+        "ZEM",
+        "INF",
+        "OS",
+        "DB",
+        "TV",
+        "HV",
+        "VV"
+      ]
+    },
+    {
+      "id": "3b514257-0ce3-4383-8856-704eda368360",
+      "name": "2.B",
+      "year": 2,
+      "subjects": [
+        "MAT",
+        "CJ",
+        "AJ",
+        "FYZ",
+        "CHE",
+        "BIO",
+        "DEJ",
+        "ZEM",
+        "INF",
+        "OS",
+        "DB",
+        "TV",
+        "HV",
+        "VV"
+      ]
+    }
+  ],
+  "teachers": [
+    {
+      "id": "d141db24-6926-46be-a6d8-347b2b53686e",
+      "name": "Jan Novák",
+      "email": "jan.novak@skola.cz",
+      "subjects": [
+        "MAT",
+        "FYZ"
+      ],
+      "blockings": []
+    },
+    {
+      "id": "3dbd54de-7663-42d0-ba85-a080f2d7b121",
+      "name": "Marie Svobodová",
+      "email": "marie.svobodova@skola.cz",
+      "subjects": [
+        "CJ",
+        "DEJ"
+      ],
+      "blockings": []
+    },
+    {
+      "id": "56864740-d8e4-4380-b968-aefd6de88d05",
+      "name": "Petr Dvořák",
+      "email": "petr.dvorak@skola.cz",
+      "subjects": [
+        "AJ"
+      ],
+      "blockings": []
+    },
+    {
+      "id": "d4d907f9-ee33-4130-b559-d239b6b31f12",
+      "name": "Anna Kratochvílová",
+      "email": "anna.kratochvilova@skola.cz",
+      "subjects": [
+        "CHE",
+        "BIO"
+      ],
+      "blockings": []
+    },
+    {
+      "id": "c2ea214e-1651-406c-a0db-f415fdd88b85",
+      "name": "Tomáš Procházka",
+      "email": "tomas.prochazka@skola.cz",
+      "subjects": [
+        "INF",
+        "OS",
+        "DB",
+        "PROG"
+      ],
+      "blockings": []
+    },
+    {
+      "id": "64ceda06-e0fd-4eb5-9ec6-70b1ade2a764",
+      "name": "Jana Malá",
+      "email": "jana.mala@skola.cz",
+      "subjects": [
+        "TV"
+      ],
+      "blockings": []
+    },
+    {
+      "id": "12101be4-a4b6-4b20-a45d-3b403f94cdea",
+      "name": "Pavel Velký",
+      "email": "pavel.velky@skola.cz",
+      "subjects": [
+        "ZEM",
+        "HV",
+        "VV"
+      ],
+      "blockings": []
+    }
+  ],
+  "subjects": [
+    {
+      "id": "8ce06cc9-d390-4c2d-8431-f250bc1dea0b",
+      "name": "Matematika",
+      "code": "MAT",
+      "recommendedClassrooms": [
+        "standard"
+      ],
+      "year": 1
+    },
+    {
+      "id": "3153c0bb-afc4-45ea-b6d2-bc72a0b8b70a",
+      "name": "Český jazyk",
+      "code": "CJ",
+      "recommendedClassrooms": [
+        "standard"
+      ],
+      "year": 1
+    },
+    {
+      "id": "ada7d2e3-8f1a-452f-941b-b18cf9ca7fab",
+      "name": "Anglický jazyk",
+      "code": "AJ",
+      "recommendedClassrooms": [
+        "standard"
+      ],
+      "year": 1
+    },
+    {
+      "id": "3489109d-5722-4dd9-a097-3c8dc76fc886",
+      "name": "Fyzika",
+      "code": "FYZ",
+      "recommendedClassrooms": [
+        "standard",
+        "lab"
+      ],
+      "year": 1
+    },
+    {
+      "id": "ede0b6d4-3299-408e-8e76-0c393da0d65e",
+      "name": "Chemie",
+      "code": "CHE",
+      "recommendedClassrooms": [
+        "standard",
+        "lab"
+      ],
+      "year": 1
+    },
+    {
+      "id": "710265ec-d532-4ffc-bbba-0bbb31f24fdc",
+      "name": "Biologie",
+      "code": "BIO",
+      "recommendedClassrooms": [
+        "standard",
+        "lab"
+      ],
+      "year": 1
+    },
+    {
+      "id": "5cc7187f-2771-430d-a368-1149198e77b4",
+      "name": "Dějepis",
+      "code": "DEJ",
+      "recommendedClassrooms": [
+        "standard"
+      ],
+      "year": 1
+    },
+    {
+      "id": "666264d3-1729-4239-ac75-eafb39ee00b9",
+      "name": "Zeměpis",
+      "code": "ZEM",
+      "recommendedClassrooms": [
+        "standard"
+      ],
+      "year": 1
+    },
+    {
+      "id": "8f4aeed2-04bc-4bf1-a766-c3cd47a8d2d9",
+      "name": "Informatika",
+      "code": "INF",
+      "recommendedClassrooms": [
+        "computer"
+      ],
+      "year": 1
+    },
+    {
+      "id": "8d199b11-1893-4e3c-9ec0-65c215e8b076",
+      "name": "Operační systémy",
+      "code": "OS",
+      "recommendedClassrooms": [
+        "computer"
+      ],
+      "year": 2
+    },
+    {
+      "id": "c3764727-b1dc-46b5-b34e-ec1edcf97c34",
+      "name": "Databáze",
+      "code": "DB",
+      "recommendedClassrooms": [
+        "computer"
+      ],
+      "year": 2
+    },
+    {
+      "id": "24072b12-29d4-47e4-86e6-c711e167d84c",
+      "name": "Programování",
+      "code": "PROG",
+      "recommendedClassrooms": [
+        "computer"
+      ],
+      "year": 2
+    },
+    {
+      "id": "2be47564-4232-4912-a16c-ab75379248c9",
+      "name": "Tělesná výchova",
+      "code": "TV",
+      "recommendedClassrooms": [
+        "gym"
+      ],
+      "year": 1
+    },
+    {
+      "id": "4feaa5e2-ba66-41ea-9144-ee3ea3ea8d0b",
+      "name": "Hudební výchova",
+      "code": "HV",
+      "recommendedClassrooms": [
+        "standard"
+      ],
+      "year": 1
+    },
+    {
+      "id": "45b2826a-1342-43ac-b853-b828a37b0bb5",
+      "name": "Výtvarná výchova",
+      "code": "VV",
+      "recommendedClassrooms": [
+        "standard"
+      ],
+      "year": 1
+    }
+  ],
+  "classrooms": [
+    {
+      "id": "55829cb2-b86a-4b46-a51c-b3bf6d4df93a",
+      "name": "Učebna 101",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "e3c456ff-62b7-414f-ab12-2da73d889d24",
+      "name": "Učebna 102",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "9c95ab9e-8f07-4b4f-b516-b8b8413e85a4",
+      "name": "Učebna 103",
+      "capacity": 30,
+      "type": "standard"
+    },
+    {
+      "id": "93d1991c-4421-4b11-892c-162ed14df6d8",
+      "name": "Počítačová učebna A",
+      "capacity": 20,
+      "type": "computer"
+    },
+    {
+      "id": "56133d84-67d1-460b-944d-5d4096676152",
+      "name": "Počítačová učebna B",
+      "capacity": 20,
+      "type": "computer"
+    },
+    {
+      "id": "f08711c3-faac-4266-881c-3235f8f91d65",
+      "name": "Laboratoř chemie",
+      "capacity": 15,
+      "type": "lab"
+    },
+    {
+      "id": "af54e2ac-0caf-4336-8b92-409bb81fd927",
+      "name": "Laboratoř fyziky",
+      "capacity": 15,
+      "type": "lab"
+    },
+    {
+      "id": "f59abe8f-70a3-4006-98bf-3a1a50022912",
+      "name": "Tělocvična",
+      "capacity": 40,
+      "type": "gym"
+    },
+    {
+      "id": "54d28294-288f-4fed-a3f7-63db62ef3f8d",
+      "name": "Aula",
+      "capacity": 100,
+      "type": "auditorium"
+    }
+  ],
+  "classroomTypes": [
+    {
+      "id": "f13133a9-f8f1-4c06-99c5-d3930d360ad8",
+      "name": "TUcebna",
+      "description": "",
+      "color": "#3b82f6",
+      "icon": "🎯",
+      "isCustom": true
+    }
+  ],
+  "studyPrograms": [
+    {
+      "id": "49c09248-5b6d-4f99-bb99-dc5d237ec4a3",
+      "name": "IT",
+      "years": 1,
+      "subjects": [
+        "MAT",
+        "CJ"
+      ]
+    },
+    {
+      "id": "37dfbc95-80bc-4402-897a-2c8118b5942d",
+      "name": "KB",
+      "years": 2,
+      "subjects": [
+        "MAT",
+        "CJ"
+      ]
+    },
+    {
+      "id": "0bb01a15-a02d-4513-8f19-eb0a2699e005",
+      "name": "TL",
+      "years": 3,
+      "subjects": [
+        "MAT",
+        "CJ"
+      ]
+    },
+    {
+      "id": "09d371ff-8236-42cc-ab7f-768705ef6b95",
+      "name": "IZT",
+      "years": 4,
+      "subjects": [
+        "MAT",
+        "CJ"
+      ]
+    },
+    {
+      "id": "09d371ff-8236-42cc-ab7f-768705ef6b95",
+      "name": "ISE",
+      "years": 4,
+      "subjects": [
+        "MAT",
+        "CJ"
+      ]
+    },
+    {
+      "id": "09d371ff-8236-42cc-ab7f-768705ef6b95",
+      "name": "BP",
+      "years": 4,
+      "subjects": [
+        "MAT",
+        "CJ"
+      ]
+    },
+    {
+      "id": "09d371ff-8236-42cc-ab7f-768705ef6b95",
+      "name": "BD",
+      "years": 4,
+      "subjects": [
+        "MAT",
+        "CJ"
+      ]
+    },
+    {
+      "id": "09d371ff-8236-42cc-ab7f-768705ef6b95",
+      "name": "LG",
+      "years": 4,
+      "subjects": [
+        "MAT",
+        "CJ"
+      ]
+    }
+  ],
+  "schedule": {},
+  "selectedClass": null,
+  "exportDate": "2025-09-26T10:00:07.846Z",
+  "version": "1.0"
+}
