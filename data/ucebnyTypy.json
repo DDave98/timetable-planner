@@ -1,0 +1,9 @@
+[
+  {
+    "id": "standard",
+    "name": "Běžná učebna",
+    "description": "Klasická učebny pro výuku teorie, atd.",
+    "color": "#3b82f6",
+    "icon": "🏫"
+  }
+]

@@ -24,11 +24,6 @@ export default function ClassroomsPage() {
 
   // Kombinace předdefinovaných a vlastních typů
   const allClassroomTypes = [
-    { value: 'standard', label: 'Standardní učebna', description: 'Klasické učebny pro matematiku, češtinu, atd.', color: '#3b82f6', icon: '🏫' },
-    { value: 'computer', label: 'Počítačová učebna', description: 'Učebny s počítači pro informatiku', color: '#8b5cf6', icon: '💻' },
-    { value: 'lab', label: 'Laboratoř', description: 'Laboratoře pro chemii, fyziku, biologii', color: '#f59e0b', icon: '🧪' },
-    { value: 'gym', label: 'Tělocvična', description: 'Tělocvičny pro tělesnou výchovu', color: '#10b981', icon: '🏃' },
-    { value: 'auditorium', label: 'Aula', description: 'Auly pro přednášky a prezentace', color: '#ef4444', icon: '🎭' },
     ...classroomTypes.map(type => ({
       value: type.id,
       label: type.name,
